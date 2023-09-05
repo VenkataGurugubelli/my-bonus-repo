@@ -44,9 +44,13 @@ git status
 9. After writing the command in this file for step 8, commit again, 
    this time with commit message "Answer question 8"
 
+git add .
+git commit -m 'Answer question 8'
+
 10. Write the command to push bonus_2 to your repo, save this file, 
     then execute the actual push command that you wrote below, 
     then verify on GitHub whether all your changes are there,
     then do a pull request. 
     (the answer to this question is the push command)
 
+git push -u origin bonus_2
