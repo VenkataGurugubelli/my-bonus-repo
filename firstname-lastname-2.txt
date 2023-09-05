@@ -34,7 +34,12 @@ nano firstname-lastname-2.txt
 7. Commit your changes to branch bonus_2 with the commit message:
    "Answer questions 1 to 6"
 
+git add firstname-lastname-2.txt
+git commit -m 'Answer questions 1 to 6'
+
 8. Get the status
+
+git status
 
 9. After writing the command in this file for step 8, commit again, 
    this time with commit message "Answer question 8"
